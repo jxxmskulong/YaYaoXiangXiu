@@ -14,7 +14,6 @@ import com.yayao.service.MerService;
 import com.yayao.util.ActionContextUtil;
 
 @Service("merService")
-@Transactional
 public class MerServiceImpl implements MerService {
 
 	@Autowired

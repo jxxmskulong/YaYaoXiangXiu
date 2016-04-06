@@ -13,7 +13,6 @@ import com.yayao.dao.MerDao;
 import com.yayao.service.CartService;
 import com.yayao.util.ActionContextUtil;
 @Service("cartService")
-@Transactional
 public class CartServiceImpl implements CartService {
 
 	@Autowired

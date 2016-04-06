@@ -17,7 +17,6 @@ import com.yayao.service.ConsigneeService;
 import com.yayao.util.ActionContextUtil;
 import com.yayao.util.BaseLog;
 @Service("consigneeService")
-@Transactional
 public class ConsigneeServiceImpl extends BaseLog implements ConsigneeService {
 	
 	@Autowired

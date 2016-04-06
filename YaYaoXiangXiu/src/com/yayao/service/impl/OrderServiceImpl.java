@@ -14,7 +14,6 @@ import com.yayao.service.OrderService;
 import com.yayao.util.ActionContextUtil;
 
 @Service("orderService")
-@Transactional
 public class OrderServiceImpl implements OrderService {
     @Autowired
     @Qualifier("orderDao")

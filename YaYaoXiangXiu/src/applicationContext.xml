@@ -150,11 +150,11 @@
 	</bean>
 	<!-- 开启注解事务 只对当前配置文件有效 
 	-->	
-	<tx:annotation-driven transaction-manager="txManager" proxy-target-class="true"/>
-	<!-- 开启AOP监听 只对当前配置文件有效 -->
-	 <!-- <aop:aspectj-autoproxy expose-proxy="true"/> 
+	<!-- <tx:annotation-driven transaction-manager="txManager" proxy-target-class="true"/>
+ -->	<!-- 开启AOP监听 只对当前配置文件有效 -->
+	 <aop:aspectj-autoproxy expose-proxy="true"/> 
 	 <aop:config>
-        <aop:pointcut id="txPointcut" expression="execution(* com.yaoyao.service..*.*(..))" />
+        <aop:pointcut id="txPointcut" expression="execution(* com.yayao.service..*.*(..))" />
         <aop:advisor advice-ref="txAdvice" pointcut-ref="txPointcut"/>
     </aop:config>
 	<tx:advice id="txAdvice" transaction-manager="txManager">
@@ -183,5 +183,5 @@
             <tx:method name="browse*" propagation="REQUIRED" read-only="true" />
             <tx:method name="*" read-only="true" />
         </tx:attributes>
-    </tx:advice>   -->
+    </tx:advice>  
 	</beans>

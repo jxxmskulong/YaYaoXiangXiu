@@ -17,7 +17,6 @@ import com.yayao.dao.ConsigneeDao;
 import com.yayao.service.CommentService;
 import com.yayao.util.*;
 @Service("commentService")
-@Transactional
 public class CommentServiceImpl extends BaseLog implements CommentService {
 
 	@Autowired

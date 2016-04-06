@@ -17,7 +17,6 @@ import com.yayao.service.ConsigneeService;
 import com.yayao.service.MemService;
 import com.yayao.util.*;
 @Service("memService")
-@Transactional
 public class MemServiceImpl implements MemService {
 
 	@Autowired

@@ -32,7 +32,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 /** 系统用户管理接口实现 */
 @Service("adminService")
-@Transactional
 public class AdminServiceImpl  implements AdminService{
 	@Autowired
 	@Qualifier("adminDao")

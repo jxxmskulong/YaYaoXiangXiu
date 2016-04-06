@@ -1,12 +1,9 @@
 package com.yayao.util;
 
-import java.lang.annotation.Annotation;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.springframework.format.annotation.DateTimeFormat;
-import org.springframework.format.annotation.DateTimeFormat.ISO;
 /**
  * 日期格式化类
  * @author yy

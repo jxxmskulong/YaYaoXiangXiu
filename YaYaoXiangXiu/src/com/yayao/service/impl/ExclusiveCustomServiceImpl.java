@@ -25,7 +25,6 @@ import com.yayao.service.ExclusiveCustomService;
 import com.yayao.util.ActionContextUtil;
 import com.yayao.util.BaseLog;
 @Service("exclusiveCustomService")
-@Transactional
 public class ExclusiveCustomServiceImpl extends BaseLog implements ExclusiveCustomService {
 	
 	@Autowired
